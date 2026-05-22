@@ -206,8 +206,18 @@ src/
 ---
 
 ## 📄 License
+## Author
 
+**Shakib Ali**  
+Java Full Stack Developer
+
+## License
 This project is intended for educational and portfolio purposes.
+
+
+This project is licensed under the MIT License.
+Copyright © 2026 Shakib Ali
+
 
 ---
 
