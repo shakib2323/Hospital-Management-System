@@ -44,7 +44,7 @@ This system manages the complete operational lifecycle of a hospital network —
 | ORM            | Spring Data JPA / Hibernate 6     |
 | Database       | MySQL 8                           |
 | Build Tool     | Maven                             |
-| Utilities      | Lombok, MapStruct                 |
+| Utilities      | Lombok                 |
 | API Docs       | Swagger / OpenAPI 3               |
 | Server         | Apache Tomcat 11                  |
 
@@ -246,7 +246,7 @@ Tables are created automatically via JPA/Hibernate `ddl-auto` on first startup.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/HospitalManagementSystem.git
+git clone https://github.com/shakib2323/HospitalManagementSystem.git
 cd HospitalManagementSystem
 ```
 
@@ -283,15 +283,15 @@ POST /api/v1/auth/login
 
 ```json
 {
-  "username": "shakib",
-  "password": "Shakib@0000"
+  "username": "your user name",
+  "password": "your password"
 }
 ```
 
 **Step 2 — Use token in all subsequent requests:**
 
 ```
-Authorization: Bearer <token>
+Authorization: Bearer <your-token>
 ```
 
 ---
