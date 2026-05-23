@@ -247,7 +247,7 @@ Tables are created automatically via JPA/Hibernate `ddl-auto` on first startup.
 ```bash
 # Clone the repository
 git clone https://github.com/shakib2323/Hospital-Management-System.git
-cd HospitalManagementSystem
+cd Hospital-Management-System
 ```
 
 Configure `src/main/resources/application.properties`:
